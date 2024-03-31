@@ -21,17 +21,19 @@ main .hero h1 {
   color: white;
 }
 
-main .hero picture {
-  /*position: absolute;*/
-  float: left;
+/*main .hero picture {
+  position: absolute;*/
+  /*float: left;
   z-index: -1;
   inset: 0;
   object-fit: cover;
   box-sizing: border-box;
-}
+}*/
 
 main .hero img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+  /*object-fit: cover;*/
+  width: 40%;
+  height: 40%;
+  float: left;
+  margin-top: 4em;
 }
